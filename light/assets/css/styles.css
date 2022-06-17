@@ -1141,28 +1141,36 @@ section.active {
     animation: animate 4s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 
-.bar .progress-line.Photoshop span {
-    width: 70%;
+.bar .progress-line.linux span {
+    width: 80%;
 }
 
-.bar .progress-line.Illustrator span {
-    width: 90%;
-}
-
-.bar .progress-line.Figma span {
+.bar .progress-line.figma span {
     width: 75%;
 }
 
-.bar .progress-line.Indesign span {
-    width: 80%;
+.bar .progress-line.camunda span {
+    width: 65%;
 }
 
-.bar .progress-line.Sketch span {
+.bar .progress-line.guitar span {
+    width: 75%;
+}
+
+.bar .progress-line.keyboard span {
+    width: 60%;
+}
+
+.bar .progress-line.basketball span {
     width: 70%;
 }
 
-.bar .progress-line.html span {
+.bar .progress-line.time span {
     width: 80%;
+}
+
+.bar .progress-line.html span {
+    width: 90%;
 }
 
 .bar .progress-line.css span {
@@ -1170,15 +1178,23 @@ section.active {
 }
 
 .bar .progress-line.jquery span {
-    width: 85%;
+    width: 75%;
 }
 
 .bar .progress-line.python span {
-    width: 50%;
+    width: 80%;
 }
 
 .bar .progress-line.mysql span {
     width: 70%;
+}
+
+.bar .progress-line.php span {
+    width: 90%;
+}
+
+.bar .progress-line.laravel span {
+    width: 90%;
 }
 
 .progress-line span::before {
@@ -1210,28 +1226,36 @@ section.active {
     animation: showText2 1s 3s linear forwards;
 }
 
-.progress-line.Photoshop span::after {
-    content: "70%";
+.progress-line.linux span::after {
+    content: "80%";
 }
 
-.progress-line.Illustrator span::after {
-    content: "90%";
-}
-
-.progress-line.Figma span::after {
+.progress-line.figma span::after {
     content: "75%";
 }
 
-.progress-line.Indesign span::after {
-    content: "80%";
+.progress-line.camunda span::after {
+    content: "65%";
 }
 
-.progress-line.Sketch span::after {
+.progress-line.guitar span::after {
+    content: "75%";
+}
+
+.progress-line.keyboard span::after {
+    content: "60%";
+}
+
+.progress-line.basketball span::after {
     content: "70%";
 }
 
-.progress-line.html span::after {
+.progress-line.time span::after {
     content: "80%";
+}
+
+.progress-line.html span::after {
+    content: "90%";
 }
 
 .progress-line.css span::after {
@@ -1239,15 +1263,23 @@ section.active {
 }
 
 .progress-line.jquery span::after {
-    content: "85%";
+    content: "75%";
 }
 
 .progress-line.python span::after {
-    content: "50%";
+    content: "80%";
 }
 
 .progress-line.mysql span::after {
     content: "70%";
+}
+
+.progress-line.php span::after {
+    content: "90%";
+}
+
+.progress-line.laravel span::after {
+    content: "90%";
 }
 
 /*********************  Skill Bar Section Close *******************/
