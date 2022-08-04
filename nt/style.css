@@ -1,0 +1,19 @@
+*, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #411530;
+  color: #F5E8E4;
+  font-family: 'Cormorant SC', serif;
+  font-weight: 400;
+}
+
+h1 {
+  text-align: center;
+}
